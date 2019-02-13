@@ -1,5 +1,5 @@
 Name:		cheat
-Version:	2.4.2
+Version:	2.5.0
 Release:	1%{?dist}
 Summary:	Help for various commands and their usecases
 
@@ -41,6 +41,9 @@ install -p -m0644 man1/cheat.1.gz %{buildroot}%{_mandir}/man1/cheat.1.gz
 %{_mandir}/man1/cheat.1*
 
 %changelog
+* Fri Feb 08 2019 Tomas Korbar <tkorbar@redhat.com> - 2.5.0-1
+- Rebase to version 2.5.0
+
 * Mon Feb 04 2019 Tomas Korbar <tkorbar@redhat.com> - 2.4.2-1
 - Rebase to version 2.4.2
 
