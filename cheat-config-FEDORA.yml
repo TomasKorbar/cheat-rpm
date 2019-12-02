@@ -1,0 +1,15 @@
+editor: vi
+
+colorize: true
+
+cheatpaths:
+  - name: community                   # a name for the cheatpath
+    path: /usr/share/cheat/ # the path's location on the filesystem
+    tags: [ community ]               # these tags will be applied to all sheets on the path
+    readonly: true                    # if true, `cheat` will not create new cheatsheets here
+# Uncomment this if you want to create your personal cheatsheets or edit those distributed by
+# package. You will also have to create ~/.cheat directory or change this path to something else
+#  - name: personal
+#    path: ~/.cheat/
+#    tags: [ personal ]
+#    readonly: false
